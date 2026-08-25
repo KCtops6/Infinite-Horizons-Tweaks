@@ -41,6 +41,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GRANITE_GRAVEL_ITEM.get());
                         output.accept(ModItems.DEEPSLATE_GRAVEL_ITEM.get());
                         output.accept(ModItems.TUFF_GRAVEL_ITEM.get());
+                        output.accept(ModItems.NETHERRACK_GRAVEL_ITEM.get());
+                        output.accept(ModItems.END_STONE_GRAVEL_ITEM.get());
                     })
                     .build());
 

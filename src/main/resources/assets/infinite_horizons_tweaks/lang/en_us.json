@@ -14,10 +14,16 @@
   "item.infinite_horizons_tweaks.diorite_pebble": "Diorite Pebble",
   "item.infinite_horizons_tweaks.deepslate_pebble": "Deepslate Pebble",
   "item.infinite_horizons_tweaks.tuff_pebble": "Tuff Pebble",
+  "item.infinite_horizons_tweaks.netherrack_pebble": "Netherrack Pebble",
+  "item.infinite_horizons_tweaks.end_stone_pebble": "End Stone Pebble",
 
   "block.infinite_horizons_tweaks.andesite_gravel": "Andesite Gravel",
   "block.infinite_horizons_tweaks.granite_gravel": "Granite Gravel",
   "block.infinite_horizons_tweaks.diorite_gravel": "Diorite Gravel",
   "block.infinite_horizons_tweaks.tuff_gravel": "Tuff Gravel",
-  "block.infinite_horizons_tweaks.deepslate_gravel": "Deepslate Gravel"
+  "block.infinite_horizons_tweaks.deepslate_gravel": "Deepslate Gravel",
+  "block.infinite_horizons_tweaks.netherrack_gravel": "Netherrack Gravel",
+  "block.infinite_horizons_tweaks.end_stone_gravel": "End Stone Gravel",
+
+  "creativetab.infinite_horizons_tab": "Infinite Horizons Tweaks"
 }

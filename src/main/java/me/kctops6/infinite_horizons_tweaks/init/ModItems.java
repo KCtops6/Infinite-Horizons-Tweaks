@@ -87,6 +87,12 @@ public class ModItems {
     public static final RegistryObject<Item> DEEPSLATE_GRAVEL_ITEM =
             registerBlockItem("deepslate_gravel", ModBlocks.DEEPSLATE_GRAVEL);
 
+    public static final RegistryObject<Item> NETHERRACK_GRAVEL_ITEM =
+            registerBlockItem("netherrack_gravel", ModBlocks.NETHERRACK_GRAVEL);
+
+    public static final RegistryObject<Item> END_STONE_GRAVEL_ITEM =
+            registerBlockItem("end_stone_gravel", ModBlocks.END_STONE_GRAVEL);
+
     private static <T extends Block> RegistryObject<Item> registerBlockItem(
             String name,
             RegistryObject<T> block
