@@ -3,3 +3,9 @@
 .build/
 gradle/
 run/
+/run/
+/.gradle/
+/.idea/
+/build/
+/gradle/
+/run/
