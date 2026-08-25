@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XIX",
+    " I "
+  ],
+  "key": {
+    "X": { "item": "minecraft:iron_ingot" },
+    "I": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "infinite_horizons_tweaks:iron_hammer" }
+}

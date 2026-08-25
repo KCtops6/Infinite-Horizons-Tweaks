@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "infinite_horizons_tweaks:item/stone_pebble"
+  }
+}

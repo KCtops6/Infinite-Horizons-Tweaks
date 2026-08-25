@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="infinite_horizons_tweaks"
+version="1.20.1F-1.0.5"
+displayName="Infinite Horizons Tweaks"
+authors="kctops6"
+description="Replaces KubeJS/LootJS scripts with natively optimized trowels, hammers, and blocks."
+
+[[dependencies.infinite_horizons_tweaks]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.infinite_horizons_tweaks]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

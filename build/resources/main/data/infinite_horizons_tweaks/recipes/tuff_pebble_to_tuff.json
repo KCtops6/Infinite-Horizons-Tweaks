@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "infinite_horizons_tweaks:tuff_pebble"
+    }
+  },
+  "result": {
+    "item": "minecraft:tuff"
+  }
+}
