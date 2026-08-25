@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:dirt_path",
+    "minecraft:gravel",
+    "infinite_horizons_tweaks:andesite_gravel",
+    "infinite_horizons_tweaks:granite_gravel",
+    "infinite_horizons_tweaks:diorite_gravel",
+    "infinite_horizons_tweaks:tuff_gravel",
+    "infinite_horizons_tweaks:deepslate_gravel"
+  ]
+}

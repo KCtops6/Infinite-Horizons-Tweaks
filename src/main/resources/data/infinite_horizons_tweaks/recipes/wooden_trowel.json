@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "XIX",
+    " I "
+  ],
+  "key": {
+    "X": { "tag": "minecraft:planks" },
+    "I": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "infinite_horizons_tweaks:wooden_trowel" }
+}

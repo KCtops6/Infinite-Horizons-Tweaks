@@ -1,0 +1,23 @@
+{
+  "itemGroup.infinite_horizons_tweaks": "Infinite Horizons Tweaks",
+
+  "item.infinite_horizons_tweaks.wooden_trowel": "Wooden Trowel",
+  "item.infinite_horizons_tweaks.stone_trowel": "Stone Trowel",
+  "item.infinite_horizons_tweaks.iron_trowel": "Iron Trowel",
+
+  "item.infinite_horizons_tweaks.stone_hammer": "Stone Hammer",
+  "item.infinite_horizons_tweaks.iron_hammer": "Iron Hammer",
+
+  "item.infinite_horizons_tweaks.stone_pebble": "Stone Pebble",
+  "item.infinite_horizons_tweaks.andesite_pebble": "Andesite Pebble",
+  "item.infinite_horizons_tweaks.granite_pebble": "Granite Pebble",
+  "item.infinite_horizons_tweaks.diorite_pebble": "Diorite Pebble",
+  "item.infinite_horizons_tweaks.deepslate_pebble": "Deepslate Pebble",
+  "item.infinite_horizons_tweaks.tuff_pebble": "Tuff Pebble",
+
+  "block.infinite_horizons_tweaks.andesite_gravel": "Andesite Gravel",
+  "block.infinite_horizons_tweaks.granite_gravel": "Granite Gravel",
+  "block.infinite_horizons_tweaks.diorite_gravel": "Diorite Gravel",
+  "block.infinite_horizons_tweaks.tuff_gravel": "Tuff Gravel",
+  "block.infinite_horizons_tweaks.deepslate_gravel": "Deepslate Gravel"
+}
