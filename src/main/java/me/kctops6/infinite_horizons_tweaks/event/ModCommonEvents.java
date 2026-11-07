@@ -2,10 +2,9 @@ package me.kctops6.infinite_horizons_tweaks.event;
 
 import me.kctops6.infinite_horizons_tweaks.InfiniteHorizonsTweaks;
 import me.kctops6.infinite_horizons_tweaks.init.ModItems;
+import me.kctops6.infinite_horizons_tweaks.init.ModTags;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.TagKey;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.item.Item;
@@ -21,13 +20,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ModCommonEvents {
-
-    // Define your custom item tags so Java can map them to your JSON tags
-    public static final TagKey<Item> HAMMERS = TagKey.create(Registries.ITEM,
-            new ResourceLocation(InfiniteHorizonsTweaks.MOD_ID, "hammers"));
-
-    public static final TagKey<Item> TROWELS = TagKey.create(Registries.ITEM,
-            new ResourceLocation(InfiniteHorizonsTweaks.MOD_ID, "trowels"));
 
     @SubscribeEvent
     public static void onBlockBreakWithSpecialTools(BlockEvent.BreakEvent event) {
@@ -59,7 +51,7 @@ public class ModCommonEvents {
         // ==========================================
         // 1. HAMMER CRUSHING LOGIC (Using Tags)
         // ==========================================
-        if (tool.is(HAMMERS)) {
+        if (tool.is(ModTags.Items.HAMMERS)) {
             String outputItemStr = null;
             if (blockStr.equals("minecraft:cobblestone")) outputItemStr = "minecraft:gravel";
             else if (blockStr.equals("minecraft:gravel")) outputItemStr = "minecraft:sand";
@@ -80,7 +72,7 @@ public class ModCommonEvents {
         // ==========================================
         // 2. TROWEL PEBBLE LOGIC (Using Tags)
         // ==========================================
-        if (tool.is(TROWELS)) {
+        if (tool.is(ModTags.Items.TROWELS)) {
             boolean isDirtType = blockStr.equals("minecraft:dirt") || blockStr.equals("minecraft:grass_block") || blockStr.equals("minecraft:dirt_path");
             boolean isGravelType = blockStr.equals("minecraft:gravel") ||
                     blockStr.equals("infinite_horizons_tweaks:andesite_gravel") ||
