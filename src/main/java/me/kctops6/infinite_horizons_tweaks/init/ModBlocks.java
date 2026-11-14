@@ -32,8 +32,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> NETHERRACK_GRAVEL = BLOCKS.register("netherrack_gravel",
             () -> new CustomGravelBlock(0x511515, BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
 
+    public static final RegistryObject<Block> BASALT_GRAVEL = BLOCKS.register("basalt_gravel",
+            () -> new CustomGravelBlock(0x4b4d4e, BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
+
     public static final RegistryObject<Block> END_STONE_GRAVEL = BLOCKS.register("end_stone_gravel",
             () -> new CustomGravelBlock(0xdcdf9e, BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
+
+    public static final RegistryObject<Block> LIMESTONE_GRAVEL = BLOCKS.register("limestone_gravel",
+            () -> new CustomGravelBlock(0xd1cec7, BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

@@ -59,6 +59,8 @@ public class ModCommonEvents {
             else if (blockStr.equals("minecraft:diorite")) outputItemStr = "infinite_horizons_tweaks:diorite_gravel";
             else if (blockStr.equals("minecraft:granite")) outputItemStr = "infinite_horizons_tweaks:granite_gravel";
             else if (blockStr.equals("minecraft:sand")) outputItemStr = "createsifter:dust";
+            else if (blockStr.equals("minecraft:basalt")) outputItemStr = "infinite_horizons_tweaks:basalt_gravel";
+            else if (blockStr.equals("create:limestone")) outputItemStr = "infinite_horizons_tweaks:limestone_gravel";
 
             if (outputItemStr != null) {
                 Item target = ForgeRegistries.ITEMS.getValue(new ResourceLocation(outputItemStr));
@@ -77,7 +79,11 @@ public class ModCommonEvents {
             boolean isGravelType = blockStr.equals("minecraft:gravel") ||
                     blockStr.equals("infinite_horizons_tweaks:andesite_gravel") ||
                     blockStr.equals("infinite_horizons_tweaks:granite_gravel") ||
-                    blockStr.equals("infinite_horizons_tweaks:diorite_gravel");
+                    blockStr.equals("infinite_horizons_tweaks:diorite_gravel") ||
+                    blockStr.equals("infinite_horizons_tweaks:deepslate_gravel") ||
+                    blockStr.equals("infinite_horizons_tweaks:netherrack_gravel") ||
+                    blockStr.equals("infinite_horizons_tweaks:basalt_gravel") ||
+                    blockStr.equals("infinite_horizons_tweaks:limestone_gravel");
 
             // WOODEN TROWEL
             if (heldItem == ModItems.WOODEN_TROWEL.get() && isDirtType) {

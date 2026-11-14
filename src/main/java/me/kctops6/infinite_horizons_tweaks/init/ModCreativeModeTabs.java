@@ -35,6 +35,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GRANITE_PEBBLE.get());
                         output.accept(ModItems.DEEPSLATE_PEBBLE.get());
                         output.accept(ModItems.TUFF_PEBBLE.get());
+                        output.accept(ModItems.LIMESTONE_PEBBLE.get());
 
                         output.accept(ModItems.ANDESITE_GRAVEL_ITEM.get());
                         output.accept(ModItems.DIORITE_GRAVEL_ITEM.get());
@@ -42,7 +43,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DEEPSLATE_GRAVEL_ITEM.get());
                         output.accept(ModItems.TUFF_GRAVEL_ITEM.get());
                         output.accept(ModItems.NETHERRACK_GRAVEL_ITEM.get());
+                        output.accept(ModItems.BASALT_GRAVEL_ITEM.get());
                         output.accept(ModItems.END_STONE_GRAVEL_ITEM.get());
+                        output.accept(ModItems.LIMESTONE_GRAVEL_ITEM.get());
                     })
                     .build());
 

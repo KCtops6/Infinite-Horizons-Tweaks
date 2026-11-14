@@ -70,6 +70,10 @@ public class ModItems {
             ITEMS.register("tuff_pebble",
                     () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> LIMESTONE_PEBBLE =
+            ITEMS.register("limestone_pebble",
+                    () -> new Item(new Item.Properties()));
+
     // ===== BLOCK ITEMS =====
 
     public static final RegistryObject<Item> ANDESITE_GRAVEL_ITEM =
@@ -90,8 +94,14 @@ public class ModItems {
     public static final RegistryObject<Item> NETHERRACK_GRAVEL_ITEM =
             registerBlockItem("netherrack_gravel", ModBlocks.NETHERRACK_GRAVEL);
 
+    public static final RegistryObject<Item> BASALT_GRAVEL_ITEM =
+            registerBlockItem("basalt_gravel", ModBlocks.BASALT_GRAVEL);
+
     public static final RegistryObject<Item> END_STONE_GRAVEL_ITEM =
             registerBlockItem("end_stone_gravel", ModBlocks.END_STONE_GRAVEL);
+
+    public static final RegistryObject<Item> LIMESTONE_GRAVEL_ITEM =
+            registerBlockItem("limestone_gravel", ModBlocks.LIMESTONE_GRAVEL);
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(
             String name,

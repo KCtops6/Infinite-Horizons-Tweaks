@@ -6,6 +6,8 @@
     "minecraft:andesite",
     "minecraft:diorite",
     "minecraft:granite",
-    "minecraft:sand"
+    "minecraft:sand",
+    "minecraft:basalt",
+    "create:limestone"
   ]
 }
