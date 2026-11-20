@@ -74,6 +74,18 @@ public class ModItems {
             ITEMS.register("limestone_pebble",
                     () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> NETHERRACK_PEBBLE =
+            ITEMS.register("netherrack_pebble",
+                    () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BASALT_PEBBLE =
+            ITEMS.register("basalt_pebble",
+                    () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> END_STONE_PEBBLE =
+            ITEMS.register("end_stone_pebble",
+                    () -> new Item(new Item.Properties()));
+
     // ===== BLOCK ITEMS =====
 
     public static final RegistryObject<Item> ANDESITE_GRAVEL_ITEM =

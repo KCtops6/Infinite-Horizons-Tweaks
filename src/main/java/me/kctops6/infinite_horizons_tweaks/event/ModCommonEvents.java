@@ -1,6 +1,5 @@
 package me.kctops6.infinite_horizons_tweaks.event;
 
-import me.kctops6.infinite_horizons_tweaks.InfiniteHorizonsTweaks;
 import me.kctops6.infinite_horizons_tweaks.init.ModItems;
 import me.kctops6.infinite_horizons_tweaks.init.ModTags;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -14,6 +13,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.ArrayList;
@@ -60,7 +60,7 @@ public class ModCommonEvents {
             else if (blockStr.equals("minecraft:granite")) outputItemStr = "infinite_horizons_tweaks:granite_gravel";
             else if (blockStr.equals("minecraft:sand")) outputItemStr = "createsifter:dust";
             else if (blockStr.equals("minecraft:basalt")) outputItemStr = "infinite_horizons_tweaks:basalt_gravel";
-            else if (blockStr.equals("create:limestone")) outputItemStr = "infinite_horizons_tweaks:limestone_gravel";
+            else if (ModList.get().isLoaded("create") && blockStr.equals("create:limestone")) outputItemStr = "infinite_horizons_tweaks:limestone_gravel";
 
             if (outputItemStr != null) {
                 Item target = ForgeRegistries.ITEMS.getValue(new ResourceLocation(outputItemStr));
